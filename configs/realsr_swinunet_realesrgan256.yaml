@@ -3,7 +3,7 @@ trainer:
 
 model:
   target: models.unet.UNetModelSwin
-  ckpt_path: ~
+  ckpt_path: /content/ResShift/weights/autoencoder_vq_f4.pth
   params:
     image_size: 64
     in_channels: 3
