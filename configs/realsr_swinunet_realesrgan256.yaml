@@ -150,8 +150,8 @@ train:
   lr_schedule: ~
   warmup_iterations: 5000
   # dataloader
-  batch: [64, 8]                
-  microbatch: 8
+  batch: [8, 1]                
+  microbatch: 1
   num_workers: 4
   prefetch_factor: 2            
   # optimization settings
